@@ -1,0 +1,116 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "laptops": [
+    {
+      "id": 1,
+      "name": "Macbook  Air 2020",
+      "price": "99990",
+      "ram": "8GB Unified Memory",
+      "storage": "256 GB",
+      "processor": "M1 Processor",
+      "display": " 13' Inches",
+      "img": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXBwbGUlMjBsYXB0b3B8ZW58MHx8MHx8&w=1000&q=80"
+    },
+    {
+      "id": 2,
+      "name": "Macbook  Air 2022",
+      "price": "129990",
+      "ram": "8GB Unified Memory",
+      "storage": "256 GB",
+      "processor": "M2 Processor",
+      "display": " 13' Inches",
+      "img": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/photo_1625766763788_95dcce9bf5ac.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Macbook  Air 2022",
+      "price": "149990",
+      "ram": "16GB Unified Memory",
+      "storage": "512 GB",
+      "processor": "M2 Processor",
+      "display": " 13' Inches"
+    },
+    {
+      "id": 4,
+      "name": "Macbook Pro 2020",
+      "price": "199990",
+      "ram": "8GB Unified Memory",
+      "storage": "256 GB",
+      "processor": "M1 Processor",
+      "display": " 13' Inches"
+    },
+    {
+      "id": 5,
+      "name": "Macbook Pro 2022",
+      "price": "299990",
+      "ram": "16GB Unified Memory",
+      "storage": "512 GB",
+      "processor": "M2 Processor",
+      "display": " 14' Inches"
+    },
+    {
+      "id": 6,
+      "name": "Macbook Pro 2022",
+      "price": "299990",
+      "ram": "16GB Unified Memory",
+      "storage": "512 GB",
+      "processor": "M2 Processor",
+      "display": " 14' Inches"
+    }
+  ],
+  "smartphone": [
+    {
+      "id": 1,
+      "name": "iPhone 13 Mini",
+      "price": "64990",
+      "ram": "4GB ",
+      "storage": "128 GB",
+      "processor": "A15 Bionic",
+      "display": "5.5' Inches"
+    },
+    {
+      "id": 2,
+      "name": "iPhone 13 Mini",
+      "price": "64990",
+      "ram": "4GB ",
+      "storage": "128 GB",
+      "processor": "A15 Bionic",
+      "display": "5.5' Inches"
+    },
+    {
+      "id": 3,
+      "name": "iPhone 13 Mini",
+      "price": "64990",
+      "ram": "4GB ",
+      "storage": "128 GB",
+      "processor": "A15 Bionic",
+      "display": "5.5' Inches"
+    },
+    {
+      "id": 4,
+      "name": "iPhone 13 Mini",
+      "price": "64990",
+      "ram": "4GB ",
+      "storage": "128 GB",
+      "processor": "A15 Bionic",
+      "display": "5.5' Inches"
+    }
+  ],
+  "cart": []
+}

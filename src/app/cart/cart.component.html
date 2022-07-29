@@ -1,0 +1,37 @@
+<app-header></app-header>
+
+<div class="container mt-3">
+    <div class="row justify-content-center">
+        <div class="col-md-7">
+            {{total}}
+            <div class="card mt-5" *ngFor="let cartitems of cart">
+                <h5 class="card-header"> {{cartitems.name}}</h5>
+                <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <div class="card-text"> 
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img [src]="cartitems.img" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col">
+                                
+                                <h3><b> ₹ </b><span class="badge rounded-pill bg-success">{{cartitems.price}}    
+                                </span></h3>
+                                {{cartitems.ram}}
+                                {{cartitems.storage}}
+                                {{cartitems.processor}}
+                                {{cartitems.display}}
+                            </div>
+                            <div class="col">                                
+                                <a class="btn btn-danger" (click)="deletecartitems(cartitems.id)">Delete</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
